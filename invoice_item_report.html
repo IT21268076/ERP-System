@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>Invoice Report</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <form action="invoice_item_report.php" method="post">
+
+        <div class="form_group">
+            <label for="start_date">Start Date:</label>
+            <input type="date" id="start_date" name="start_date" required>
+        </div>
+
+        <br>
+        
+        <div class="form_group">
+            <label for="end_date">End Date:</label>
+            <input type="date" id="end_date" name="end_date" required>
+
+        </div>
+        <button type="submit">Generate Report</button>
+    </form>
+    
+
+</body>
